@@ -9,5 +9,4 @@ public class AkgroupApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AkgroupApplication.class, args);
 	}
-
 }

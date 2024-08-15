@@ -3,6 +3,8 @@ package com.akgroup.controllers;
 import org.springframework.stereotype.Controller;
 //import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+
 
 @Controller
 public class CommonController {
@@ -11,16 +13,9 @@ public class CommonController {
 	public String index() {
 		return "index";
 	}
-//	@GetMapping("/header")
-//	public String header() {
-//		return "header";
-//	}
-//	@GetMapping("/footer")
-//	public String footer() {
-//		return "footer";
-//	}
-//	@GetMapping("/fragments")
-//	public String fragments() {
-//		return "fragments";
-//	}
+	@GetMapping("/login")
+	public String login() {
+		return "login";
+	}
+	
 }
